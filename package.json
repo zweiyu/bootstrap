@@ -93,6 +93,7 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
+    "hammerjs": "^2.0.8",
     "jquery": "1.9.1 - 3",
     "popper.js": "^1.14.4"
   },
@@ -111,6 +112,8 @@
     "cross-env": "^5.2.0",
     "eslint": "^5.5.0",
     "glob": "^7.1.3",
+    "hammer-simulator": "0.0.1",
+    "hammerjs": "^2.0.8",
     "htmllint-cli": "^0.0.7",
     "http-server": "^0.11.1",
     "ip": "^1.1.5",
@@ -130,6 +133,7 @@
     "qunit": "^2.6.2",
     "rollup": "^0.65.2",
     "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.1.6",
     "rollup-plugin-node-resolve": "^3.4.0",
     "shelljs": "^0.8.2",
     "shx": "^0.3.2",
@@ -179,11 +183,11 @@
     },
     {
       "path": "./dist/js/bootstrap.bundle.js",
-      "maxSize": "45 kB"
+      "maxSize": "60 kB"
     },
     {
       "path": "./dist/js/bootstrap.bundle.min.js",
-      "maxSize": "25 kB"
+      "maxSize": "28 kB"
     },
     {
       "path": "./dist/js/bootstrap.js",
