@@ -32,12 +32,8 @@ const files = [
     configPropertyName: 'js_hash'
   },
   {
-    file: 'site/docs/4.1/assets/js/vendor/jquery-slim.min.js',
-    configPropertyName: 'jquery_hash'
-  },
-  {
-    file: 'site/docs/4.1/assets/js/vendor/popper.min.js',
-    configPropertyName: 'popper_hash'
+    file: 'dist/js/bootstrap.bundle.min.js',
+    configPropertyName: 'js_bundle_hash'
   }
 ]
 
